@@ -5,8 +5,8 @@ function getIt(){
 }
 
 function frameIt(){
-  $(".tasty").on("load", function(){
-    this.style.border = "red"
+  $("img").on("load", function(){
+    this.addClassList("tasty")
   })
 }
 
